@@ -26,7 +26,7 @@ int main()
     }
 
     for(i=0;i<n;i++)
-        for(j=1;j<n;j++)
+        for(j=1+i;j<n;j++)
             if(*(p+i)<*(p+j))
             {
                 gr=*(p+i);
