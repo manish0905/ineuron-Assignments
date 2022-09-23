@@ -2,7 +2,7 @@
 
 
 #include<math.h>
-#include<stdlib.h>
+
 
 //function to calculate the angle between two lines with equation ax+by+c=0
 double find_angle(int a1,int b1,int a2,int b2) //a1,a2 and b1,b2 are the value of the lines equation ax+by+c=0
